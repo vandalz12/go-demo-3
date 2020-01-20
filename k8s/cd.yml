@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: docker
-    image: docker:18.03-git
+    image: docker:18.09.9-git
     command: ["sleep"]
     args: ["100000"]
     volumeMounts:
